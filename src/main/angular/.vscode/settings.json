@@ -1,0 +1,8 @@
+{
+    "files.exclude": {
+        ".vscode": true,
+        "node_modules": true
+    },
+    "editor.wrappingColumn": -1,
+    "typescript.check.workspaceVersion": false
+}

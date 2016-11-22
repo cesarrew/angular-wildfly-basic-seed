@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "module": "es6",
+        "moduleResolution": "node",
+        "noImplicitAny": true,
+        "removeComments": false,
+        "sourceMap": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "target": "es5"
+    },
+    "angularCompilerOptions": {
+        "genDir": "./src/ngfactory"
+    }
+}
