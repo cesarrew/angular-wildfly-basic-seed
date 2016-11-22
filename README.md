@@ -2,7 +2,7 @@
 
 A very simple seed that includes only the essential to start a project with Angular 2, PrimeNG and Wildfly 10 in the back-end.
 
-Note: If you need a seed to a front-end project only, use [`https://github.com/cesarrew/angular-basic-seed.git`][https://github.com/cesarrew/angular-basic-seed.git].
+Note: If you need a seed to a front-end project only, use [https://github.com/cesarrew/angular-basic-seed.git].
 
 ## Features
 
