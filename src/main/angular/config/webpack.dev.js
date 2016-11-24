@@ -35,6 +35,9 @@ module.exports = {
         new webpack.optimize.CommonsChunkPlugin({
             name: ["app", "resources", "polyfills"]
         }),
+        new webpack.ContextReplacementPlugin(
+            /angular(\\|\/)core(\\|\/)(esm(\\|\/)src|src)(\\|\/)linker/, __dirname
+        ),
         new ExtractTextPlugin("[name].css"),
         new HtmlWebpackPlugin({
             template: "src/index.html"
