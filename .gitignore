@@ -2,4 +2,5 @@
 .project
 .settings
 src/main/angular/node_modules
+src/main/angular/npm-debug.log
 target
