@@ -18,7 +18,6 @@ import { routing } from "./app.routing";
     ],
     providers: [
     ],
-
     bootstrap: [AppComponent]
 })
 export class AppModule {
