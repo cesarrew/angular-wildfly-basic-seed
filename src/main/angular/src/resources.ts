@@ -13,4 +13,5 @@ import "rxjs/Rx";
 
 //Styles
 import "primeng/resources/primeng.min.css";
+import "primeng/resources/themes/omega/theme.css";
 import "../resources/other/styles.css";
