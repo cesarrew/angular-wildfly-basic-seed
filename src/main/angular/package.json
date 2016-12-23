@@ -7,27 +7,27 @@
         "build": "del -f '../webapp/**/*' '!../webapp/WEB-INF/**' && webpack --config config/webpack.prod.js --progress --profile --bail && mvn -f ../../../pom.xml clean package"
     },
     "dependencies": {
-        "@angular/common": "2.2.3",
-        "@angular/compiler": "2.2.3",
-        "@angular/core": "2.2.3",
-        "@angular/forms": "2.2.3",
-        "@angular/http": "2.2.3",
-        "@angular/platform-browser": "2.2.3",
-        "@angular/platform-browser-dynamic": "2.2.3",
-        "@angular/router": "3.2.3",
+        "@angular/common": "2.4.1",
+        "@angular/compiler": "2.4.1",
+        "@angular/core": "2.4.1",
+        "@angular/forms": "2.4.1",
+        "@angular/http": "2.4.1",
+        "@angular/platform-browser": "2.4.1",
+        "@angular/platform-browser-dynamic": "2.4.1",
+        "@angular/router": "3.4.1",
         "core-js": "2.4.1",
-        "primeng": "1.1.0",
-        "reflect-metadata": "0.1.8",
-        "rxjs": "5.0.0-beta.12",
-        "zone.js": "0.6.21"
+        "primeng": "1.1.2",
+        "reflect-metadata": "0.1.9",
+        "rxjs": "5.0.2",
+        "zone.js": "0.7.4"
     },
     "devDependencies": {
-        "@angular/compiler-cli": "2.2.3",
-        "@ngtools/webpack": "1.1.9",
+        "@angular/compiler-cli": "2.4.1",
+        "@ngtools/webpack": "1.2.1",
         "@types/core-js": "0.9.35",
-        "@types/node": "6.0.48",
+        "@types/node": "6.0.53",
         "angular2-template-loader": "0.6.0",
-        "awesome-typescript-loader": "3.0.0-beta.10",
+        "awesome-typescript-loader": "3.0.0-beta.17",
         "css-loader": "0.26.1",
         "del-cli": "0.2.1",
         "extract-text-webpack-plugin": "2.0.0-beta.4",
@@ -38,7 +38,7 @@
         "script-loader": "0.7.0",
         "style-loader": "0.13.1",
         "typescript": "2.0.10",
-        "webpack": "2.1.0-beta.27",
-        "webpack-dev-server": "2.1.0-beta.12"
+        "webpack": "2.1.0-beta.25",
+        "webpack-dev-server": "2.1.0-beta.10"
     }
 }

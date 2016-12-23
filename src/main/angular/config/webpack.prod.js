@@ -34,7 +34,7 @@ module.exports = {
 
     plugins: [
         new AotPlugin({
-            entryModule: "src/app/app.module#AppModule",
+            entryModule: process.cwd() + "/src/app/app.module#AppModule",
             tsConfigPath: "./tsconfig.json"
         }),
         new webpack.optimize.CommonsChunkPlugin({
