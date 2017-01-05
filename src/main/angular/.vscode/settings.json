@@ -3,6 +3,8 @@
         ".vscode": true,
         "node_modules": true
     },
+    "editor.formatOnSave": true,
     "editor.wrappingColumn": -1,
+    "html.format.wrapLineLength": 0,
     "typescript.check.workspaceVersion": false
 }
