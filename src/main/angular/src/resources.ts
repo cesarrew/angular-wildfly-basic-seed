@@ -12,6 +12,7 @@ import "rxjs/Rx";
 //import "script-loader!chart.js/dist/Chart.bundle.min.js";
 
 //Styles
+import "font-awesome/css/font-awesome.min.css";
 import "primeng/resources/primeng.min.css";
 import "primeng/resources/themes/omega/theme.css";
 import "../resources/other/styles.css";
