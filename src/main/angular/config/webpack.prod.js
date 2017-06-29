@@ -14,7 +14,7 @@ module.exports = {
     },
 
     output: {
-        path: "../webapp",
+        path: path.resolve("../webapp"),
         filename: "[name].[hash].js",
         chunkFilename: "[id].[hash].chunk.js"
     },

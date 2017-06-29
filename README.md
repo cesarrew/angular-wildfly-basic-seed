@@ -1,6 +1,6 @@
 # angular-wildfly-basic-seed
 
-A very simple seed that includes only the essential to start a project with Angular 2, PrimeNG and Wildfly 10 in the back-end.
+A very simple seed that includes only the essential to start a project with Angular, PrimeNG and Wildfly 10 in the back-end.
 
 Note: If you need a seed to a front-end project only, use https://github.com/cesarrew/angular-basic-seed.git.
 
@@ -12,12 +12,12 @@ Note: If you need a seed to a front-end project only, use https://github.com/ces
 - The whole project is in a maven structure. The webapp maven folder is updated with the front-end files when npm "build" task is completed.
 - Simple pom.xml file ready to use Wildfly 10 dependencies.
 - Already configured CORS to avoid problems accessing the REST services from another host (i.e. Development enviroment at http://localhost:3000 trying to access the back-end at http://localhost:8080).
-- Already configured Push Stated in Wildfly using the rewrite-servlet library allowing use Angular 2 default router mechanism.
+- Already configured Push Stated in Wildfly using the rewrite-servlet library allowing use Angular default router mechanism.
 - Some Visual Studio Code settings, like NPM tasks definition.
 
 ## Used tools and libraries
 
-- NPM, Webpack 2, TypeScript, Angular 2 and PrimeNG in front-end.
+- NPM, Webpack 2, TypeScript, Angular and PrimeNG in front-end.
 - Maven, Java 8 and Wildfly 10 (pom.xml configuration) in back-end.
 
 ## How to configure
@@ -34,7 +34,7 @@ Note: If you need a seed to a front-end project only, use https://github.com/ces
 
 ## How to start
 
-Note that Maven 3 and NPM 3 or higher is required to build the project.
+Note that Maven 3 and NodeJS 6 or higher is required to build the project.
 
 ```bash
 # Changes the current folder to front-end source folder.
